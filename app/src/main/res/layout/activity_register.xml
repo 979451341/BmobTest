@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <zzw.bmobtest.view.InputView
+        android:id="@+id/inputv_username"
+        android:layout_marginRight="80px"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/login_et_press"
+        app:left_text="账号"></zzw.bmobtest.view.InputView>
+
+    <zzw.bmobtest.view.InputView
+        android:id="@+id/inputv_password"
+        android:layout_marginRight="80px"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/login_et_press"
+        app:left_text="密码"
+        app:is_password="true"></zzw.bmobtest.view.InputView>
+
+
+    <zzw.bmobtest.view.InputView
+        android:id="@+id/inputv_two_password"
+        android:layout_marginRight="80px"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/login_et_press"
+        app:left_text="密码"
+        app:is_password="true"></zzw.bmobtest.view.InputView>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="注册"
+        android:textSize="80px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100px"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:background="@drawable/login_btn"/>
+
+</LinearLayout>

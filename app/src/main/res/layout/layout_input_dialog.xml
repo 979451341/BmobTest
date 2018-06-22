@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="100px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/et"
+        android:gravity="top"
+        android:textColor="@color/tvColor"
+        android:hint="请输入留言内容"
+        android:layout_width="match_parent"
+        android:lines="5"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="发送"
+        android:textSize="80px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:background="@drawable/login_btn"/>
+
+</LinearLayout>
